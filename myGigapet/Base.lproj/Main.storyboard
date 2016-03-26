@@ -60,7 +60,7 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="UUH-jC-Djd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="UUH-jC-Djd" customClass="MonsterImg" customModule="myGigapet" customModuleProvider="target">
                                 <rect key="frame" x="50" y="242" width="364" height="350"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="364" id="ddN-7Z-HG3"/>
@@ -177,6 +177,9 @@
                         <outlet property="foodImg" destination="WHl-6a-YkC" id="NkM-ks-Kdx"/>
                         <outlet property="heartImg" destination="tAM-6u-HwJ" id="tc8-Lz-TSI"/>
                         <outlet property="monsterImg" destination="UUH-jC-Djd" id="jnf-gA-nrb"/>
+                        <outlet property="penalty1Img" destination="f1R-Hl-6rw" id="Vwz-L6-dg9"/>
+                        <outlet property="penalty2Img" destination="OHz-CS-ERT" id="Z5Z-3Q-moq"/>
+                        <outlet property="penalty3Img" destination="vKQ-Nw-OvX" id="GHf-BB-7kH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
