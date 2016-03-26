@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		9C04EE521CA7219C00680781 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C04EE511CA7219C00680781 /* DragImg.swift */; };
 		9C04EE541CA7266600680781 /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C04EE531CA7266600680781 /* MonsterImg.swift */; };
+		9C04EE5A1CA73BC900680781 /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C04EE551CA73BC900680781 /* cave-music.mp3 */; };
+		9C04EE5B1CA73BC900680781 /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9C04EE561CA73BC900680781 /* bite.wav */; };
+		9C04EE5C1CA73BC900680781 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9C04EE571CA73BC900680781 /* death.wav */; };
+		9C04EE5D1CA73BC900680781 /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9C04EE581CA73BC900680781 /* heart.wav */; };
+		9C04EE5E1CA73BC900680781 /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9C04EE591CA73BC900680781 /* skull.wav */; };
 		9CE546591C9F84FD00F922DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE546581C9F84FD00F922DA /* AppDelegate.swift */; };
 		9CE5465B1C9F84FD00F922DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE5465A1C9F84FD00F922DA /* ViewController.swift */; };
 		9CE5465E1C9F84FD00F922DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE5465C1C9F84FD00F922DA /* Main.storyboard */; };
@@ -19,6 +24,11 @@
 /* Begin PBXFileReference section */
 		9C04EE511CA7219C00680781 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
 		9C04EE531CA7266600680781 /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
+		9C04EE551CA73BC900680781 /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		9C04EE561CA73BC900680781 /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		9C04EE571CA73BC900680781 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		9C04EE581CA73BC900680781 /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		9C04EE591CA73BC900680781 /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
 		9CE546551C9F84FD00F922DA /* myGigapet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myGigapet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE546581C9F84FD00F922DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CE5465A1C9F84FD00F922DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +68,11 @@
 		9CE546571C9F84FD00F922DA /* myGigapet */ = {
 			isa = PBXGroup;
 			children = (
+				9C04EE551CA73BC900680781 /* cave-music.mp3 */,
+				9C04EE561CA73BC900680781 /* bite.wav */,
+				9C04EE571CA73BC900680781 /* death.wav */,
+				9C04EE581CA73BC900680781 /* heart.wav */,
+				9C04EE591CA73BC900680781 /* skull.wav */,
 				9CE546581C9F84FD00F922DA /* AppDelegate.swift */,
 				9CE5465A1C9F84FD00F922DA /* ViewController.swift */,
 				9CE5465C1C9F84FD00F922DA /* Main.storyboard */,
@@ -129,7 +144,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C04EE5E1CA73BC900680781 /* skull.wav in Resources */,
+				9C04EE5B1CA73BC900680781 /* bite.wav in Resources */,
+				9C04EE5C1CA73BC900680781 /* death.wav in Resources */,
+				9C04EE5D1CA73BC900680781 /* heart.wav in Resources */,
 				9CE546631C9F84FD00F922DA /* LaunchScreen.storyboard in Resources */,
+				9C04EE5A1CA73BC900680781 /* cave-music.mp3 in Resources */,
 				9CE546601C9F84FD00F922DA /* Assets.xcassets in Resources */,
 				9CE5465E1C9F84FD00F922DA /* Main.storyboard in Resources */,
 			);
